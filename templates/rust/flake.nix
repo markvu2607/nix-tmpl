@@ -13,8 +13,8 @@
         overlays = [ (import rust-overlay) ];
         pkgs = import nixpkgs { inherit system overlays; };
         rustToolchain = pkgs.rust-bin.stable.latest.default.override {
-          extensions = ["rust-src" "rust-analyzer"]
-        }
+          extensions = ["rust-src" "rust-analyzer"];
+        };
       in
       {
         devShells.default = with pkgs; mkShell {
