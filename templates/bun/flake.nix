@@ -16,6 +16,7 @@
           buildInputs = [
             bun
             vtsls
+            oxlint
           ];
         };
       }
