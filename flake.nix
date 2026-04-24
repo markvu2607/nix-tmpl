@@ -12,6 +12,11 @@
         path = ./templates/rust;
         description = "Basic rust environment";
       };
+
+      bun= {
+        path = ./templates/bun;
+        description = "Basic bun environment";
+      };
     };
   };
 }
