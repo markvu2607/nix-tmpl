@@ -18,17 +18,17 @@
         };
 
         go = {
-          path = ./templates/go;
+          path = ./go;
           description = "Basic go environment";
         };
 
         rust = {
-          path = ./templates/rust;
+          path = ./rust;
           description = "Basic rust environment";
         };
 
         bun = {
-          path = ./templates/bun;
+          path = ./bun;
           description = "Basic bun environment";
         };
       };
