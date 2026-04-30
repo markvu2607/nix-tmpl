@@ -1,3 +1,0 @@
-{
-  "extends": "@prj-name/config/tsconfig.base.json"
-}

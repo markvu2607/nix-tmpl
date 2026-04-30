@@ -1,3 +1,8 @@
+
+### Tanstack-start turborepo
+```zsh
+nix flake init -t github:markvu2607/nix-tmpl#tanstack-start-turborepo
+```
 ### Basic bun
 ```zsh
 nix flake init -t github:markvu2607/nix-tmpl#bun
