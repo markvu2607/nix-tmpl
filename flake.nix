@@ -31,6 +31,11 @@
           path = ./bun;
           description = "Basic bun environment";
         };
+
+        infra-ops = {
+          path = ./infra-ops;
+          description = "Infra environment";
+        };
       };
     };
 }

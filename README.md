@@ -15,3 +15,7 @@ nix flake init -t github:markvu2607/nix-tmpl#go
 ```zsh
 nix flake init -t github:markvu2607/nix-tmpl#rust
 ```
+### Basic infra-ops
+```zsh
+nix flake init -t github:markvu2607/nix-tmpl#infra-ops
+```
