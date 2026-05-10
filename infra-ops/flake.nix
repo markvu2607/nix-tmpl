@@ -15,7 +15,15 @@
     flake-utils.lib.eachDefaultSystem (
       system:
       let
-        pkgs = import nixpkgs { inherit system; };
+        pkgs = import nixpkgs {
+          inherit system;
+          config.allowUnfreePredicate =
+            pkg:
+            builtins.elem (pkgs.lib.getName pkg) [
+              "terraform"
+              "ansible"
+            ];
+        };
       in
       {
         devShells.default =
